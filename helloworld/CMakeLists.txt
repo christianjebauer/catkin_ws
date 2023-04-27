@@ -4,7 +4,6 @@ project(helloworld)
 ## Compile as C++11, supported in ROS Kinetic and newer
 add_compile_options(-std=c++11)
 
-
 find_package(catkin REQUIRED COMPONENTS
   rosserial_arduino
   rosserial_client
